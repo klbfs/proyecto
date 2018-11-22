@@ -5,6 +5,14 @@ ven.title("Bienvenido a clases INEGI")
 
 boton = Tkinter.Button(ven, text="Minimizar", command=root.iconify)
 boton.pack()
+etiqueta = Label(ven, text="MOSTRAR CLASES")
+etiqueta.pack()
+
+etiqueta2 = Label(ven, text="EDITAR")
+etiqueta2.pack()
+
+etiqueta3= Label(app, text="ELIMINAR")
+etiqueta3.pack()
 
 
 
