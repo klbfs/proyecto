@@ -1,0 +1,11 @@
+import Tkinter
+
+ven = Tkinter.Tk()
+ven.title("Bienvenido a clases INEGI")
+
+boton = Tkinter.Button(ven, text="Minimizar", command=root.iconify)
+boton.pack()
+
+
+
+root.mainloop()
